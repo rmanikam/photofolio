@@ -1,0 +1,12 @@
+.photofolio_logo {
+  height: 58px;
+  width: 70px;
+  margin-top: 13px;
+}
+
+.logoContainer {
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+  gap: 10px;
+}

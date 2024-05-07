@@ -1,0 +1,63 @@
+.form {
+  background-color: #f4f4f4;
+  width: 600px;
+  margin: 50px 353px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 8px 0 rgba(99, 99, 99, 0.2);
+}
+
+.form h1 {
+  padding: 10px 20px;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 11px;
+}
+.innerContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.innerContainer input {
+  width: 87%;
+  padding: 10px 10px;
+  margin: 10px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 30px;
+  border: 3px solid transparent;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.btnClear {
+  background-color: #ff1300;
+  width: 108px;
+  height: 40px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.24);
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.btnCreate {
+  background-color: #07f;
+  width: 108px;
+  height: 40px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.24);
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 500;
+}

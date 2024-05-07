@@ -1,0 +1,28 @@
+image {
+  font-size: 40px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 150px 0;
+  margin: 0px auto;
+  font-family: sans-serif;
+  margin: 0 50px;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: -556px;
+  margin-top: 272px;
+  z-index: 20;
+}
+.carousel-container {
+  max-width: 750px;
+}
+
+.close {
+  width: 20px;
+}

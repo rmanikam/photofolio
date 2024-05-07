@@ -1,0 +1,41 @@
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.url {
+  width: 350px;
+  height: 200px;
+}
+.images {
+  position: relative;
+}
+
+.images .edit,
+.images .delete {
+  display: none;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+
+.images:hover .edit,
+.images:hover .delete {
+  display: block;
+}
+
+.images .edit {
+  top: -20px;
+  left: 256px;
+}
+
+.images .delete {
+  top: -20px;
+  left: 300px;
+}
